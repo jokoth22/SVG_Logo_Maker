@@ -1,7 +1,21 @@
 # SVG_Logo_Maker
-AS a freelance web developer
-I WANT to generate a simple logo for my projects
-SO THAT I don't have to pay a graphic designer
+
+## Overview
+SVG Logo Maker is a command-line application designed to empower freelance web developers to quickly generate simple logos for their projects without the need for a graphic designer. This tool offers an easy-to-use interface where users can customize their logo by selecting text, colors, and shapes.
+
+## Features
+- **Customizable Text:** Users can input up to three characters to appear in the logo.
+- **Text and Shape Colors:** Offers the flexibility to choose any color by keyword or hexadecimal value for both text and the chosen shape.
+- **Shape Selection:** Users can choose from three different shapes - circle, triangle, and square - to add to their logo.
+- **SVG Output:** Generates an SVG file named `logo.svg` that can be used across various platforms and resolutions.
+
+## Prerequisites
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (version 12.x or higher)
+- A modern web browser to view the SVG file
+
+## Installation
+Clone the repository to your local machine:
 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for text
